@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qait.automation.Tatoc_Via_Maven.TatocViaMaven">
+        <methods>
+          <include name="to_Drag_DragBox_Into_DropBox"/>
+          <include name="search_GreenBox"/>
+          <include name="to_Generate_Token"/>
+          <include name="to_Launch_Popup"/>
+          <include name="repaint_Box2_Until_Same_Color_As_Box1"/>
+          <include name="startTatoc"/>
+          <include name="startBasicCourse"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.qait.automation.Tatoc_Via_Maven.TatocViaMaven -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

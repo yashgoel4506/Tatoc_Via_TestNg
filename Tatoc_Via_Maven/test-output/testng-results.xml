@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7533" started-at="2018-06-19T13:56:47Z" finished-at="2018-06-19T13:56:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7533" started-at="2018-06-19T13:56:47Z" finished-at="2018-06-19T13:56:54Z">
+      <class name="com.qait.automation.Tatoc_Via_Maven.TatocViaMaven">
+        <test-method status="PASS" signature="startTatoc()[pri:0, instance:com.qait.automation.Tatoc_Via_Maven.TatocViaMaven@5c3bd550]" name="startTatoc" is-config="true" duration-ms="3497" started-at="2018-06-19T13:56:47Z" finished-at="2018-06-19T13:56:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTatoc -->
+        <test-method status="PASS" signature="startBasicCourse()[pri:0, instance:com.qait.automation.Tatoc_Via_Maven.TatocViaMaven@5c3bd550]" name="startBasicCourse" duration-ms="291" started-at="2018-06-19T13:56:50Z" finished-at="2018-06-19T13:56:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBasicCourse -->
+        <test-method status="PASS" signature="search_GreenBox()[pri:0, instance:com.qait.automation.Tatoc_Via_Maven.TatocViaMaven@5c3bd550]" name="search_GreenBox" duration-ms="161" started-at="2018-06-19T13:56:51Z" depends-on-methods="com.qait.automation.Tatoc_Via_Maven.TatocViaMaven.startBasicCourse" finished-at="2018-06-19T13:56:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_GreenBox -->
+        <test-method status="PASS" signature="repaint_Box2_Until_Same_Color_As_Box1()[pri:0, instance:com.qait.automation.Tatoc_Via_Maven.TatocViaMaven@5c3bd550]" name="repaint_Box2_Until_Same_Color_As_Box1" duration-ms="1595" started-at="2018-06-19T13:56:51Z" depends-on-methods="com.qait.automation.Tatoc_Via_Maven.TatocViaMaven.search_GreenBox" finished-at="2018-06-19T13:56:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repaint_Box2_Until_Same_Color_As_Box1 -->
+        <test-method status="PASS" signature="to_Drag_DragBox_Into_DropBox()[pri:0, instance:com.qait.automation.Tatoc_Via_Maven.TatocViaMaven@5c3bd550]" name="to_Drag_DragBox_Into_DropBox" duration-ms="224" started-at="2018-06-19T13:56:53Z" depends-on-methods="com.qait.automation.Tatoc_Via_Maven.TatocViaMaven.repaint_Box2_Until_Same_Color_As_Box1" finished-at="2018-06-19T13:56:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_Drag_DragBox_Into_DropBox -->
+        <test-method status="PASS" signature="to_Launch_Popup()[pri:0, instance:com.qait.automation.Tatoc_Via_Maven.TatocViaMaven@5c3bd550]" name="to_Launch_Popup" duration-ms="1387" started-at="2018-06-19T13:56:53Z" depends-on-methods="com.qait.automation.Tatoc_Via_Maven.TatocViaMaven.to_Drag_DragBox_Into_DropBox" finished-at="2018-06-19T13:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_Launch_Popup -->
+        <test-method status="PASS" signature="to_Generate_Token()[pri:0, instance:com.qait.automation.Tatoc_Via_Maven.TatocViaMaven@5c3bd550]" name="to_Generate_Token" duration-ms="220" started-at="2018-06-19T13:56:54Z" depends-on-methods="com.qait.automation.Tatoc_Via_Maven.TatocViaMaven.to_Launch_Popup" finished-at="2018-06-19T13:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_Generate_Token -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.qait.automation.Tatoc_Via_Maven.TatocViaMaven@5c3bd550]" name="close" is-config="true" duration-ms="124" started-at="2018-06-19T13:56:54Z" finished-at="2018-06-19T13:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.qait.automation.Tatoc_Via_Maven.TatocViaMaven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
