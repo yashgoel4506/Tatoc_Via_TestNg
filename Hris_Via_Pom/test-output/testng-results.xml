@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11923" started-at="2018-06-20T14:22:02Z" finished-at="2018-06-20T14:22:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11923" started-at="2018-06-20T14:22:02Z" finished-at="2018-06-20T14:22:14Z">
+      <class name="com.qait.automation.Hris_Via_Pom.Test_Hris">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.qait.automation.Hris_Via_Pom.Test_Hris@7c16905e]" name="launchBrowser" is-config="true" duration-ms="6316" started-at="2018-06-20T19:52:02Z" finished-at="2018-06-20T19:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="attempt_Login_With_No_Password_Should_Annotate_Black_Password_Field()[pri:0, instance:com.qait.automation.Hris_Via_Pom.Test_Hris@7c16905e]" name="attempt_Login_With_No_Password_Should_Annotate_Black_Password_Field" duration-ms="209" started-at="2018-06-20T19:52:08Z" finished-at="2018-06-20T19:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attempt_Login_With_No_Password_Should_Annotate_Black_Password_Field -->
+        <test-method status="PASS" signature="attempt_Login_With_Incorrect_Password_Should_Render_Error_Message()[pri:0, instance:com.qait.automation.Hris_Via_Pom.Test_Hris@7c16905e]" name="attempt_Login_With_Incorrect_Password_Should_Render_Error_Message" duration-ms="616" started-at="2018-06-20T19:52:08Z" depends-on-methods="com.qait.automation.Hris_Via_Pom.Test_Hris.attempt_Login_With_No_Password_Should_Annotate_Black_Password_Field" finished-at="2018-06-20T19:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attempt_Login_With_Incorrect_Password_Should_Render_Error_Message -->
+        <test-method status="PASS" signature="Attempt_Login_With_correct_Credentials()[pri:0, instance:com.qait.automation.Hris_Via_Pom.Test_Hris@7c16905e]" name="Attempt_Login_With_correct_Credentials" duration-ms="3851" started-at="2018-06-20T19:52:09Z" depends-on-methods="com.qait.automation.Hris_Via_Pom.Test_Hris.attempt_Login_With_Incorrect_Password_Should_Render_Error_Message" finished-at="2018-06-20T19:52:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Attempt_Login_With_correct_Credentials -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qait.automation.Hris_Via_Pom.Test_Hris@7c16905e]" name="closeBrowser" is-config="true" duration-ms="915" started-at="2018-06-20T19:52:13Z" finished-at="2018-06-20T19:52:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qait.automation.Hris_Via_Pom.Test_Hris -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

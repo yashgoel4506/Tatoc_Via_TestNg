@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.qait.automation.Hris_Via_Pom.Test_Hris">
+        <methods>
+          <include name="attempt_Login_With_Incorrect_Password_Should_Render_Error_Message"/>
+          <include name="Attempt_Login_With_correct_Credentials"/>
+          <include name="launchBrowser"/>
+          <include name="attempt_Login_With_No_Password_Should_Annotate_Black_Password_Field"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.qait.automation.Hris_Via_Pom.Test_Hris -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
